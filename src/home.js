@@ -1,5 +1,6 @@
 export default function renderHome() {
   const content = document.getElementById("content");
+  content.textContent = "";
   const header = document.createElement("h1");
   const paragraph = document.createElement("p");
   const div = document.createElement("div");
